@@ -1,0 +1,29 @@
+.calc{
+  height: 100%;
+  width: 100%;
+}
+.contaner{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./calc.webp);
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  padding-left: 20px;
+  padding-right: 20px;
+  height:auto;
+  background-color: teal;
+  position: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+}
+.mylist li{
+  margin-right: 40px;
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
